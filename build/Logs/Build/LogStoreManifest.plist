@@ -48,7 +48,7 @@
 			<key>uniqueIdentifier</key>
 			<string>ACB48B5E-162D-495F-901F-44EA52FDBDEC</string>
 		</dict>
-		<key>B451250B-048C-4F25-B12B-7E861421F872</key>
+		<key>CC2847B7-F14E-4D0D-9C7B-4BEE62DD7E7E</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -57,13 +57,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B451250B-048C-4F25-B12B-7E861421F872.xcactivitylog</string>
+			<string>CC2847B7-F14E-4D0D-9C7B-4BEE62DD7E7E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
@@ -71,7 +71,7 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
+				<integer>2</integer>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>Untitled Project project</string>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>802817570.56170797</real>
+			<real>802819971.00638103</real>
 			<key>timeStoppedRecording</key>
-			<real>802817573.45652699</real>
+			<real>802819974.09598804</real>
 			<key>title</key>
 			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>B451250B-048C-4F25-B12B-7E861421F872</string>
+			<string>CC2847B7-F14E-4D0D-9C7B-4BEE62DD7E7E</string>
 		</dict>
 	</dict>
 </dict>

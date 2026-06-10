@@ -55,7 +55,15 @@ struct ScanScreen: View {
                     Text("memorizing \(engine.pendingCount)…")
                 }
                 .transition(.opacity)
+            } else if let mapping = memory.mappingNote {
+                Text(mapping)
+                    .foregroundStyle(.secondary)
+            } else if let hint = memory.coverageHint {
+                Text(hint)
+                    .foregroundStyle(.secondary)
             }
+
+            CoverageRing(covered: memory.coveredSectors, currentYaw: memory.currentYaw)
         }
         .font(.subheadline.weight(.medium))
         .padding(.horizontal, 16)
@@ -128,6 +136,34 @@ struct ScanScreen: View {
             .sensoryFeedback(.impact, trigger: captureSignal)
             .accessibilityLabel("Memorize this view")
         }
+    }
+}
+
+/// Eight 45° sectors around the user: cyan = photographed from that direction,
+/// the tick = where the camera points now. Fill the ring, know the room.
+private struct CoverageRing: View {
+    let covered: Set<Int>
+    let currentYaw: Float
+
+    var body: some View {
+        ZStack {
+            ForEach(0..<RoomMemory.sectorCount, id: \.self) { sector in
+                Circle()
+                    .trim(from: 0.02, to: 1 / CGFloat(RoomMemory.sectorCount) - 0.02)
+                    .stroke(
+                        covered.contains(sector) ? AnyShapeStyle(.cyan) : AnyShapeStyle(.white.opacity(0.25)),
+                        style: StrokeStyle(lineWidth: 4, lineCap: .round)
+                    )
+                    .rotationEffect(.radians(Double(sector) * 2 * .pi / Double(RoomMemory.sectorCount)))
+            }
+            Circle()
+                .fill(.white)
+                .frame(width: 5, height: 5)
+                .offset(y: -11)
+                .rotationEffect(.radians(Double(-currentYaw)))
+        }
+        .frame(width: 26, height: 26)
+        .animation(.snappy, value: covered)
     }
 }
 

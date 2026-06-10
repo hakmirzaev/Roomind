@@ -52,6 +52,36 @@ final class RoomMemory {
     var focusIsOnScreen = false
     var focusSide: Float = 0          // <0 left, >0 right — drives the edge arrow
 
+    // Scan coach: which compass directions have been captured (8 × 45° sectors)
+    var capturedYaws: [Float] = []
+    var currentYaw: Float = 0
+    var mappingNote: String?
+
+    static let sectorCount = 8
+
+    static func sector(for yaw: Float) -> Int {
+        let twoPi = 2 * Float.pi
+        let normalized = (yaw + twoPi).truncatingRemainder(dividingBy: twoPi)
+        return Int(normalized / (twoPi / Float(sectorCount))) % sectorCount
+    }
+
+    var coveredSectors: Set<Int> { Set(capturedYaws.map(Self.sector(for:))) }
+
+    /// "Turn right and capture" — points at the nearest unphotographed direction.
+    var coverageHint: String? {
+        let covered = coveredSectors
+        guard !covered.isEmpty, covered.count < Self.sectorCount else { return nil }
+        let current = Self.sector(for: currentYaw)
+        for step in 0...(Self.sectorCount / 2) {
+            let right = (current + step) % Self.sectorCount
+            let left = (current - step + Self.sectorCount) % Self.sectorCount
+            if !covered.contains(current) && step == 0 { return "capture this direction" }
+            if !covered.contains(right) { return "turn right and capture" }
+            if !covered.contains(left) { return "turn left and capture" }
+        }
+        return nil
+    }
+
     var anchorIDsWithEntries: Set<UUID> { Set(entries.map(\.anchorID)) }
 
     func entry(forAnchor anchorID: UUID) -> MemoryEntry? {

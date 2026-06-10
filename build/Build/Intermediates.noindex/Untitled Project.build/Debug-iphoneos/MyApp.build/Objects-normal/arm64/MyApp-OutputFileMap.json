@@ -105,5 +105,15 @@
     "object" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/SpotlightIndexer.o",
     "swift-dependencies" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/SpotlightIndexer.swiftdeps",
     "swiftmodule" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/SpotlightIndexer~partial.swiftmodule"
+  },
+  "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/MyApp/VoiceInput.swift" : {
+    "const-values" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/VoiceInput.swiftconstvalues",
+    "dependencies" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/VoiceInput.d",
+    "diagnostics" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/VoiceInput.dia",
+    "index-unit-output-path" : "/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/VoiceInput.o",
+    "llvm-bc" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/VoiceInput.bc",
+    "object" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/VoiceInput.o",
+    "swift-dependencies" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/VoiceInput.swiftdeps",
+    "swiftmodule" : "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphoneos/MyApp.build/Objects-normal/arm64/VoiceInput~partial.swiftmodule"
   }
 }

@@ -5,6 +5,7 @@ struct AskScreen: View {
     let onFind: (MemoryEntry, String?) -> Void
 
     @State private var draft = ""
+    @State private var voice = VoiceInput()
     @FocusState private var inputFocused: Bool
 
     var body: some View {
@@ -60,23 +61,46 @@ struct AskScreen: View {
     }
 
     private var inputBar: some View {
-        HStack(spacing: 10) {
-            TextField("Where is my…", text: $draft)
-                .textFieldStyle(.plain)
-                .focused($inputFocused)
-                .onSubmit(send)
-                .padding(.horizontal, 16)
-                .padding(.vertical, 11)
-                .glassEffect()
-
-            Button(action: send) {
-                Image(systemName: "arrow.up.circle.fill")
-                    .font(.system(size: 32))
+        VStack(spacing: 6) {
+            if let note = voice.errorNote {
+                Text(note)
+                    .font(.caption)
+                    .foregroundStyle(.red)
             }
-            .disabled(draft.trimmingCharacters(in: .whitespaces).isEmpty || librarian.isThinking)
+            HStack(spacing: 10) {
+                TextField(voice.isRecording ? "Listening…" : "Where is my…", text: $draft)
+                    .textFieldStyle(.plain)
+                    .focused($inputFocused)
+                    .onSubmit(send)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 11)
+                    .glassEffect()
+
+                Button {
+                    voice.toggle { spoken in
+                        draft = ""
+                        Task { await librarian.ask(spoken) }
+                    }
+                } label: {
+                    Image(systemName: voice.isRecording ? "stop.circle.fill" : "mic.circle.fill")
+                        .font(.system(size: 32))
+                        .foregroundStyle(voice.isRecording ? .red : .cyan)
+                        .symbolEffect(.pulse, isActive: voice.isRecording)
+                }
+                .disabled(librarian.isThinking)
+
+                Button(action: send) {
+                    Image(systemName: "arrow.up.circle.fill")
+                        .font(.system(size: 32))
+                }
+                .disabled(draft.trimmingCharacters(in: .whitespaces).isEmpty || librarian.isThinking)
+            }
         }
         .padding(.horizontal)
         .padding(.vertical, 8)
+        .onChange(of: voice.transcript) { _, spoken in
+            if voice.isRecording { draft = spoken }   // live preview while talking
+        }
     }
 
     private func send() {
