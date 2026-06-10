@@ -17,7 +17,7 @@ struct RoomSearchTool: Tool {
     }
 
     func call(arguments: Arguments) async throws -> String {
-        let hits = memory.search(arguments.query)
+        let hits = await memory.search(arguments.query)
         guard !hits.isEmpty else { return "No memory of that in this room." }
         return hits.prefix(4).map { entry in
             "ENTRY \(entry.id.uuidString.prefix(6)): \(entry.observation.sceneSummary) Items: "

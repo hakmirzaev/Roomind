@@ -1,0 +1,32 @@
+{
+  "source": "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/MyApp/MemoryScreen.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Room memory",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nothing memorized yet",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sweep the Scan tab across the room — every view becomes a memory you can search.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 14
+        }
+      }
+    ]
+  },
+  "version": 1
+}

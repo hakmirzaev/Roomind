@@ -1,0 +1,72 @@
+{
+  "source": "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/MyApp/AskScreen.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Ask the room",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Think deeper",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ask anything about this room",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "“Where's my charger?” · “What does the sticky note say?” · “Did I leave anything plugged in?”",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "thinking deeply…",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "thinking…",
+        "location": {
+          "startingColumn": 77,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "Where is my…",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Find it",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 128
+        }
+      }
+    ]
+  },
+  "version": 1
+}

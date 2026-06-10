@@ -16,7 +16,9 @@ struct ScannerProfile: LanguageModelSession.DynamicProfile {
                 Use the OCR tool to read any visible text verbatim.
                 """
             )
-            OCRTool()
+            #if !targetEnvironment(simulator)
+            OCRTool()   // _Vision_FoundationModels overlay isn't in the simulator SDK
+            #endif
         }
     }
 }
