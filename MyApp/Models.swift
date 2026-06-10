@@ -1,3 +1,4 @@
+import CoreLocation
 import FoundationModels
 import UIKit
 import Observation
@@ -36,11 +37,22 @@ struct MemoryEntry: Identifiable {
     let observation: SpatialObservation
     let thumbnail: UIImage?
     let date = Date()
+    let compassHeading: Double?   // magnetic heading in degrees at capture time, nil if unavailable
+}
+
+extension MemoryEntry {
+    static func compassLabel(for degrees: Double) -> String {
+        let dirs = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
+        return dirs[Int((degrees + 22.5) / 45) % 8]
+    }
 }
 
 @Observable
 final class RoomMemory {
     var entries: [MemoryEntry] = []
+
+    let headingService = HeadingService()
+    var currentHeading: Double? { headingService.currentHeading }
 
     // Cross-screen state: which beacon the AR view should guide toward
     var focusedAnchorID: UUID?

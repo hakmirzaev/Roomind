@@ -17,6 +17,9 @@ struct ARScanView: UIViewRepresentable {
         if ARWorldTrackingConfiguration.isSupported {
             let config = ARWorldTrackingConfiguration()
             config.planeDetection = [.horizontal, .vertical]
+            if ARWorldTrackingConfiguration.supportsFrameSemantics(.sceneDepth) {
+                config.frameSemantics.insert(.sceneDepth)
+            }
             arView.session.run(config)
         }
         arView.session.delegate = context.coordinator
@@ -60,8 +63,9 @@ struct ARScanView: UIViewRepresentable {
             if let hit = arView.raycast(from: center, allowing: .estimatedPlane, alignment: .any).first {
                 transform = hit.worldTransform
             } else {
+                let depth = Self.sampleDepth(from: frame) ?? 0.7
                 var fallback = matrix_identity_float4x4
-                fallback.columns.3.z = -0.7
+                fallback.columns.3.z = -Float(depth)
                 transform = frame.camera.transform * fallback
             }
 
@@ -69,7 +73,8 @@ struct ARScanView: UIViewRepresentable {
             arView.session.add(anchor: anchor)
             addBeacon(for: anchor.identifier, at: transform, in: arView)
 
-            engine.enqueue(pixelBuffer: frame.capturedImage, anchorID: anchor.identifier)
+            engine.enqueue(pixelBuffer: frame.capturedImage, anchorID: anchor.identifier,
+                           heading: memory.currentHeading)
             haptics.impactOccurred()
         }
 
@@ -178,6 +183,22 @@ struct ARScanView: UIViewRepresentable {
             let side = simd_dot(simd_normalize(delta), simd_normalize(right))
             let direction = side > 0.25 ? "to your right" : side < -0.25 ? "to your left" : "straight ahead"
             return (String(format: "%.1f meters, %@", dist, direction), side)
+        }
+
+        /// Samples the LiDAR depth map center pixel. Returns meters, or nil on
+        /// non-LiDAR devices, out-of-range values, or non-finite readings.
+        static func sampleDepth(from frame: ARFrame) -> Float? {
+            guard let depthMap = frame.sceneDepth?.depthMap else { return nil }
+            CVPixelBufferLockBaseAddress(depthMap, .readOnly)
+            defer { CVPixelBufferUnlockBaseAddress(depthMap, .readOnly) }
+            let width  = CVPixelBufferGetWidth(depthMap)
+            let height = CVPixelBufferGetHeight(depthMap)
+            guard let base = CVPixelBufferGetBaseAddress(depthMap) else { return nil }
+            let ptr = base.advanced(by: (height / 2) * CVPixelBufferGetBytesPerRow(depthMap)
+                                      + (width  / 2) * MemoryLayout<Float32>.size)
+            let depth = ptr.load(as: Float32.self)
+            guard depth.isFinite, depth >= 0.1, depth <= 8.0 else { return nil }
+            return depth
         }
     }
 }

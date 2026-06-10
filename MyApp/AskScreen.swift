@@ -116,6 +116,11 @@ private struct MessageBubble: View {
                                 .font(.caption)
                                 .foregroundStyle(.secondary)
                                 .lineLimit(2)
+                            if let degrees = match.compassHeading {
+                                Text("Facing \(MemoryEntry.compassLabel(for: degrees)) when captured")
+                                    .font(.caption2)
+                                    .foregroundStyle(.tertiary)
+                            }
                             Button {
                                 onFind(match, message.matchItemName)
                             } label: {

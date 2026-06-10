@@ -43,9 +43,19 @@ private struct EntryRow: View {
                     .font(.subheadline.weight(.medium))
                     .lineLimit(2)
                 FlowChips(items: entry.observation.items.map(\.name))
-                Text(entry.date, style: .time)
-                    .font(.caption2)
-                    .foregroundStyle(.tertiary)
+                HStack(spacing: 6) {
+                    Text(entry.date, style: .time)
+                        .font(.caption2)
+                        .foregroundStyle(.tertiary)
+                    if let degrees = entry.compassHeading {
+                        Text(MemoryEntry.compassLabel(for: degrees))
+                            .font(.caption2.weight(.semibold))
+                            .foregroundStyle(.secondary)
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(.tint.opacity(0.12), in: .capsule)
+                    }
+                }
             }
             Spacer(minLength: 0)
             Button {

@@ -259,6 +259,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Roomind;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Roomind sweeps the camera across your room to build a private, on-device memory of your space.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Roomind saves the compass direction you were facing when you captured a memory, so you can orient yourself when finding objects later.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -299,6 +300,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Roomind;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Roomind sweeps the camera across your room to build a private, on-device memory of your space.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Roomind saves the compass direction you were facing when you captured a memory, so you can orient yourself when finding objects later.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

@@ -60,6 +60,7 @@ final class ScanEngine {
         let cgImage: CGImage
         let anchorID: UUID
         let thumbnail: UIImage
+        let heading: Double?
     }
 
     private var queue: [Job] = []
@@ -72,7 +73,7 @@ final class ScanEngine {
 
     /// Downscales the AR frame (token cost — session 241: larger images cost more tokens),
     /// fixes portrait orientation, and queues it for the model. Never blocks the camera.
-    func enqueue(pixelBuffer: CVPixelBuffer, anchorID: UUID) {
+    func enqueue(pixelBuffer: CVPixelBuffer, anchorID: UUID, heading: Double?) {
         let ciImage = CIImage(cvPixelBuffer: pixelBuffer)
         let longEdge = max(ciImage.extent.width, ciImage.extent.height)
         let scale = min(1, 768 / longEdge)
@@ -83,7 +84,7 @@ final class ScanEngine {
         let thumbnail = UIImage(cgImage: cgImage, scale: 1, orientation: .right)
         lastThumbnail = thumbnail
 
-        queue.append(Job(cgImage: cgImage, anchorID: anchorID, thumbnail: thumbnail))
+        queue.append(Job(cgImage: cgImage, anchorID: anchorID, thumbnail: thumbnail, heading: heading))
         pendingCount = queue.count + (isProcessing ? 1 : 0)
         pump()
     }
@@ -121,7 +122,8 @@ final class ScanEngine {
             let entry = MemoryEntry(
                 anchorID: job.anchorID,
                 observation: observation,
-                thumbnail: job.thumbnail
+                thumbnail: job.thumbnail,
+                compassHeading: job.heading
             )
             memory.entries.append(entry)
             lastError = nil
