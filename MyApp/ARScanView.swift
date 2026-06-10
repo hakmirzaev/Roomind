@@ -17,6 +17,12 @@ struct ARScanView: UIViewRepresentable {
         if ARWorldTrackingConfiguration.isSupported {
             let config = ARWorldTrackingConfiguration()
             config.planeDetection = [.horizontal, .vertical]
+            // LiDAR: reconstruct real geometry — raycasts hit true surfaces and
+            // beacons hide behind furniture instead of floating through it.
+            if ARWorldTrackingConfiguration.supportsSceneReconstruction(.mesh) {
+                config.sceneReconstruction = .mesh
+                arView.environment.sceneUnderstanding.options.insert(.occlusion)
+            }
             if ARWorldTrackingConfiguration.supportsFrameSemantics(.sceneDepth) {
                 config.frameSemantics.insert(.sceneDepth)
             }
@@ -73,9 +79,16 @@ struct ARScanView: UIViewRepresentable {
             arView.session.add(anchor: anchor)
             addBeacon(for: anchor.identifier, at: transform, in: arView)
 
+            memory.capturedYaws.append(Self.yaw(of: frame.camera.transform))
             engine.enqueue(pixelBuffer: frame.capturedImage, anchorID: anchor.identifier,
                            heading: memory.currentHeading)
             haptics.impactOccurred()
+        }
+
+        /// World-space heading of the camera, for the scan-coverage ring.
+        static func yaw(of transform: simd_float4x4) -> Float {
+            let forward = -SIMD3<Float>(transform.columns.2.x, transform.columns.2.y, transform.columns.2.z)
+            return atan2(forward.x, forward.z)
         }
 
         private func addBeacon(for anchorID: UUID, at transform: simd_float4x4, in arView: ARView) {
@@ -100,7 +113,22 @@ struct ARScanView: UIViewRepresentable {
 
         private var storedCache: (entryCount: Int, ids: Set<UUID>) = (0, [])
 
+        private var lastStatusUpdate = Date.distantPast
+
         private func handleFrame(_ frame: ARFrame) {
+            // Scan coach inputs: live heading + ARKit's own map quality, ~5 Hz
+            if Date().timeIntervalSince(lastStatusUpdate) > 0.2 {
+                lastStatusUpdate = Date()
+                memory.currentYaw = Self.yaw(of: frame.camera.transform)
+                let status: String? = switch frame.worldMappingStatus {
+                case .notAvailable, .limited: "building map…"
+                case .extending: "extending map"
+                case .mapped: nil                       // good news is silent
+                @unknown default: nil
+                }
+                if memory.mappingNote != status { memory.mappingNote = status }
+            }
+
             if storedCache.entryCount != memory.entries.count {
                 storedCache = (memory.entries.count, memory.anchorIDsWithEntries)
             }

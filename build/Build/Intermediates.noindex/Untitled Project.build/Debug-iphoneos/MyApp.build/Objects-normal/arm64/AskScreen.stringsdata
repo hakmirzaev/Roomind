@@ -7,7 +7,7 @@
         "key": "Ask the room",
         "location": {
           "startingColumn": 30,
-          "startingLine": 20
+          "startingLine": 21
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Ask anything about this room",
         "location": {
           "startingColumn": 19,
-          "startingLine": 35
+          "startingLine": 36
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "“Where's my charger?” · “What does the sticky note say?” · “Did I leave anything plugged in?”",
         "location": {
           "startingColumn": 18,
-          "startingLine": 37
+          "startingLine": 38
         }
       },
       {
@@ -31,15 +31,23 @@
         "key": "thinking…",
         "location": {
           "startingColumn": 30,
-          "startingLine": 51
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Listening…",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 71
         }
       },
       {
         "comment": "",
         "key": "Where is my…",
         "location": {
-          "startingColumn": 23,
-          "startingLine": 64
+          "startingColumn": 64,
+          "startingLine": 71
         }
       },
       {
@@ -47,7 +55,7 @@
         "key": "Find it",
         "location": {
           "startingColumn": 39,
-          "startingLine": 122
+          "startingLine": 146
         }
       }
     ]
