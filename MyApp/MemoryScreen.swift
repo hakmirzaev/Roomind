@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MemoryScreen: View {
     let memory: RoomMemory
-    let onFind: (MemoryEntry) -> Void
+    let onFind: (MemoryEntry, String?) -> Void
 
     var body: some View {
         NavigationStack {
@@ -27,7 +27,7 @@ struct MemoryScreen: View {
 
 private struct EntryRow: View {
     let entry: MemoryEntry
-    let onFind: (MemoryEntry) -> Void
+    let onFind: (MemoryEntry, String?) -> Void
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
@@ -49,7 +49,7 @@ private struct EntryRow: View {
             }
             Spacer(minLength: 0)
             Button {
-                onFind(entry)
+                onFind(entry, nil)
             } label: {
                 Image(systemName: "location.north.line.fill")
             }

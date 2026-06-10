@@ -9,7 +9,7 @@
       "source_file": "MyApp/Speaker.swift",
       "source_location": "L1",
       "id": "myapp_speaker_swift",
-      "community": 2,
+      "community": 1,
       "norm_label": "speaker.swift"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "MyApp/Speaker.swift",
       "source_location": "L4",
       "id": "speaker_speaker",
-      "community": 2,
+      "community": 1,
       "norm_label": "speaker"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "MyApp/Speaker.swift",
       "source_location": "L8",
       "id": "speaker_speaker_speak",
-      "community": 2,
+      "community": 1,
       "norm_label": ".speak()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "MyApp/AskScreen.swift",
       "source_location": "L1",
       "id": "myapp_askscreen_swift",
-      "community": 1,
+      "community": 2,
       "norm_label": "askscreen.swift"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "MyApp/AskScreen.swift",
       "source_location": "L3",
       "id": "askscreen_askscreen",
-      "community": 1,
+      "community": 2,
       "norm_label": "askscreen"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "",
       "source_location": "",
       "id": "view",
-      "community": 1,
+      "community": 2,
       "norm_label": "view"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "MyApp/AskScreen.swift",
       "source_location": "L88",
       "id": "askscreen_askscreen_send",
-      "community": 1,
+      "community": 3,
       "norm_label": ".send()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "MyApp/AskScreen.swift",
       "source_location": "L95",
       "id": "askscreen_messagebubble",
-      "community": 1,
+      "community": 2,
       "norm_label": "messagebubble"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L1",
       "id": "myapp_librarian_swift",
-      "community": 3,
+      "community": 1,
       "norm_label": "librarian.swift"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L7",
       "id": "librarian_roomsearchtool",
-      "community": 2,
+      "community": 5,
       "norm_label": "roomsearchtool"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "",
       "source_location": "",
       "id": "tool",
-      "community": 2,
+      "community": 5,
       "norm_label": "tool"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L13",
       "id": "librarian_arguments",
-      "community": 3,
+      "community": 1,
       "norm_label": "arguments"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L19",
       "id": "librarian_roomsearchtool_call",
-      "community": 2,
+      "community": 5,
       "norm_label": ".call()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L37",
       "id": "librarian_librarianprofile",
-      "community": 3,
+      "community": 1,
       "norm_label": "librarianprofile"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L67",
       "id": "librarian_chatmessage",
-      "community": 2,
+      "community": 1,
       "norm_label": "chatmessage"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "",
       "source_location": "",
       "id": "identifiable",
-      "community": 2,
+      "community": 6,
       "norm_label": "identifiable"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L68",
       "id": "librarian_role",
-      "community": 3,
+      "community": 1,
       "norm_label": "role"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L68",
       "id": "librarian_role_user",
-      "community": 3,
+      "community": 1,
       "norm_label": "user"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L68",
       "id": "librarian_role_assistant",
-      "community": 3,
+      "community": 1,
       "norm_label": "assistant"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L75",
       "id": "librarian_librarian",
-      "community": 3,
+      "community": 1,
       "norm_label": "librarian"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L88",
       "id": "librarian_librarian_init",
-      "community": 3,
+      "community": 1,
       "norm_label": ".init()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L93",
       "id": "librarian_librarian_rebuildsession",
-      "community": 3,
+      "community": 1,
       "norm_label": ".rebuildsession()"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L97",
       "id": "librarian_librarian_ask",
-      "community": 2,
+      "community": 1,
       "norm_label": ".ask()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "MyApp/MemoryScreen.swift",
       "source_location": "L1",
       "id": "myapp_memoryscreen_swift",
-      "community": 1,
+      "community": 2,
       "norm_label": "memoryscreen.swift"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "MyApp/MemoryScreen.swift",
       "source_location": "L3",
       "id": "memoryscreen_memoryscreen",
-      "community": 1,
+      "community": 2,
       "norm_label": "memoryscreen"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "MyApp/MemoryScreen.swift",
       "source_location": "L28",
       "id": "memoryscreen_entryrow",
-      "community": 1,
+      "community": 2,
       "norm_label": "entryrow"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "MyApp/MemoryScreen.swift",
       "source_location": "L62",
       "id": "memoryscreen_flowchips",
-      "community": 1,
+      "community": 2,
       "norm_label": "flowchips"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "MyApp/ScanScreen.swift",
       "source_location": "L1",
       "id": "myapp_scanscreen_swift",
-      "community": 1,
+      "community": 2,
       "norm_label": "scanscreen.swift"
     },
     {
@@ -270,16 +270,25 @@
       "source_file": "MyApp/ScanScreen.swift",
       "source_location": "L3",
       "id": "scanscreen_scanscreen",
-      "community": 1,
+      "community": 2,
       "norm_label": "scanscreen"
+    },
+    {
+      "label": ".banner()",
+      "file_type": "code",
+      "source_file": "MyApp/ScanScreen.swift",
+      "source_location": "L67",
+      "id": "scanscreen_scanscreen_banner",
+      "community": 2,
+      "norm_label": ".banner()"
     },
     {
       "label": ".guidanceBanner()",
       "file_type": "code",
       "source_file": "MyApp/ScanScreen.swift",
-      "source_location": "L61",
+      "source_location": "L80",
       "id": "scanscreen_scanscreen_guidancebanner",
-      "community": 1,
+      "community": 2,
       "norm_label": ".guidancebanner()"
     },
     {
@@ -288,7 +297,7 @@
       "source_file": "MyApp/Models.swift",
       "source_location": "L1",
       "id": "myapp_models_swift",
-      "community": 5,
+      "community": 6,
       "norm_label": "models.swift"
     },
     {
@@ -297,7 +306,7 @@
       "source_file": "MyApp/Models.swift",
       "source_location": "L7",
       "id": "models_spatialobservation",
-      "community": 5,
+      "community": 6,
       "norm_label": "spatialobservation"
     },
     {
@@ -306,7 +315,7 @@
       "source_file": "MyApp/Models.swift",
       "source_location": "L16",
       "id": "models_spatialitem",
-      "community": 5,
+      "community": 6,
       "norm_label": "spatialitem"
     },
     {
@@ -315,7 +324,7 @@
       "source_file": "MyApp/Models.swift",
       "source_location": "L33",
       "id": "models_memoryentry",
-      "community": 2,
+      "community": 6,
       "norm_label": "memoryentry"
     },
     {
@@ -342,7 +351,7 @@
       "source_file": "MyApp/Models.swift",
       "source_location": "L61",
       "id": "models_roommemory_search",
-      "community": 2,
+      "community": 5,
       "norm_label": ".search()"
     },
     {
@@ -367,7 +376,7 @@
       "label": "ScanEngine",
       "file_type": "code",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L26",
+      "source_location": "L28",
       "id": "scanengine_scanengine",
       "community": 4,
       "norm_label": "scanengine"
@@ -376,7 +385,7 @@
       "label": "Job",
       "file_type": "code",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L34",
+      "source_location": "L53",
       "id": "scanengine_job",
       "community": 4,
       "norm_label": "job"
@@ -385,7 +394,7 @@
       "label": ".init()",
       "file_type": "code",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L44",
+      "source_location": "L63",
       "id": "scanengine_scanengine_init",
       "community": 4,
       "norm_label": ".init()"
@@ -394,7 +403,7 @@
       "label": ".enqueue()",
       "file_type": "code",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L50",
+      "source_location": "L69",
       "id": "scanengine_scanengine_enqueue",
       "community": 4,
       "norm_label": ".enqueue()"
@@ -403,7 +412,7 @@
       "label": ".pump()",
       "file_type": "code",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L66",
+      "source_location": "L86",
       "id": "scanengine_scanengine_pump",
       "community": 4,
       "norm_label": ".pump()"
@@ -412,7 +421,7 @@
       "label": ".process()",
       "file_type": "code",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L80",
+      "source_location": "L100",
       "id": "scanengine_scanengine_process",
       "community": 4,
       "norm_label": ".process()"
@@ -529,16 +538,25 @@
       "label": ".session()",
       "file_type": "code",
       "source_file": "MyApp/ARScanView.swift",
-      "source_location": "L89",
+      "source_location": "L92",
       "id": "arscanview_coordinator_session",
       "community": 0,
       "norm_label": ".session()"
     },
     {
+      "label": ".handleFrame()",
+      "file_type": "code",
+      "source_file": "MyApp/ARScanView.swift",
+      "source_location": "L98",
+      "id": "arscanview_coordinator_handleframe",
+      "community": 0,
+      "norm_label": ".handleframe()"
+    },
+    {
       "label": ".resetBeaconScales()",
       "file_type": "code",
       "source_file": "MyApp/ARScanView.swift",
-      "source_location": "L127",
+      "source_location": "L139",
       "id": "arscanview_coordinator_resetbeaconscales",
       "community": 0,
       "norm_label": ".resetbeaconscales()"
@@ -547,7 +565,7 @@
       "label": ".guidance()",
       "file_type": "code",
       "source_file": "MyApp/ARScanView.swift",
-      "source_location": "L135",
+      "source_location": "L147",
       "id": "arscanview_coordinator_guidance",
       "community": 0,
       "norm_label": ".guidance()"
@@ -558,16 +576,16 @@
       "source_file": "MyApp/ContentView.swift",
       "source_location": "L1",
       "id": "myapp_contentview_swift",
-      "community": 6,
+      "community": 3,
       "norm_label": "contentview.swift"
     },
     {
       "label": "RoomindApp",
       "file_type": "code",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L3",
+      "source_location": "L4",
       "id": "contentview_roomindapp",
-      "community": 6,
+      "community": 3,
       "norm_label": "roomindapp"
     },
     {
@@ -576,59 +594,59 @@
       "source_file": "",
       "source_location": "",
       "id": "app",
-      "community": 6,
+      "community": 3,
       "norm_label": "app"
     },
     {
       "label": "ContentView",
       "file_type": "code",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L12",
+      "source_location": "L13",
       "id": "contentview_contentview",
-      "community": 5,
+      "community": 3,
       "norm_label": "contentview"
     },
     {
       "label": "AppTab",
       "file_type": "code",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L18",
+      "source_location": "L19",
       "id": "contentview_apptab",
-      "community": 6,
+      "community": 3,
       "norm_label": "apptab"
     },
     {
       "label": "scan",
       "file_type": "code",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L18",
+      "source_location": "L19",
       "id": "contentview_apptab_scan",
-      "community": 6,
+      "community": 3,
       "norm_label": "scan"
     },
     {
       "label": "ask",
       "file_type": "code",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L18",
+      "source_location": "L19",
       "id": "contentview_apptab_ask",
-      "community": 1,
+      "community": 3,
       "norm_label": "ask"
     },
     {
       "label": "recall",
       "file_type": "code",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L18",
+      "source_location": "L19",
       "id": "contentview_apptab_recall",
-      "community": 6,
+      "community": 3,
       "norm_label": "recall"
     },
     {
       "label": ".init()",
       "file_type": "code",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L20",
+      "source_location": "L21",
       "id": "contentview_contentview_init",
       "community": 5,
       "norm_label": ".init()"
@@ -637,10 +655,46 @@
       "label": ".find()",
       "file_type": "code",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L44",
+      "source_location": "L55",
       "id": "contentview_contentview_find",
-      "community": 5,
+      "community": 3,
       "norm_label": ".find()"
+    },
+    {
+      "label": "SpotlightIndexer.swift",
+      "file_type": "code",
+      "source_file": "MyApp/SpotlightIndexer.swift",
+      "source_location": "L1",
+      "id": "myapp_spotlightindexer_swift",
+      "community": 7,
+      "norm_label": "spotlightindexer.swift"
+    },
+    {
+      "label": "SpotlightIndexer",
+      "file_type": "code",
+      "source_file": "MyApp/SpotlightIndexer.swift",
+      "source_location": "L9",
+      "id": "spotlightindexer_spotlightindexer",
+      "community": 7,
+      "norm_label": "spotlightindexer"
+    },
+    {
+      "label": ".donate()",
+      "file_type": "code",
+      "source_file": "MyApp/SpotlightIndexer.swift",
+      "source_location": "L12",
+      "id": "spotlightindexer_spotlightindexer_donate",
+      "community": 7,
+      "norm_label": ".donate()"
+    },
+    {
+      "label": ".clearAll()",
+      "file_type": "code",
+      "source_file": "MyApp/SpotlightIndexer.swift",
+      "source_location": "L31",
+      "id": "spotlightindexer_spotlightindexer_clearall",
+      "community": 7,
+      "norm_label": ".clearall()"
     }
   ],
   "links": [
@@ -675,8 +729,8 @@
       "source_file": "MyApp/Librarian.swift",
       "source_location": "L111",
       "weight": 1.0,
-      "_src": "librarian_librarian_ask",
-      "_tgt": "speaker_speaker_speak",
+      "_src": "speaker_speaker_speak",
+      "_tgt": "librarian_librarian_ask",
       "source": "speaker_speaker_speak",
       "target": "librarian_librarian_ask"
     },
@@ -792,7 +846,7 @@
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "_src": "contentview_contentview",
       "_tgt": "view",
@@ -1071,8 +1125,8 @@
       "source_file": "MyApp/ContentView.swift",
       "source_location": "L24",
       "weight": 1.0,
-      "_src": "contentview_contentview_init",
-      "_tgt": "librarian_librarian",
+      "_src": "librarian_librarian",
+      "_tgt": "contentview_contentview_init",
       "source": "librarian_librarian",
       "target": "contentview_contentview_init"
     },
@@ -1140,7 +1194,19 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanScreen.swift",
-      "source_location": "L61",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_src": "scanscreen_scanscreen",
+      "_tgt": "scanscreen_scanscreen_banner",
+      "source": "scanscreen_scanscreen",
+      "target": "scanscreen_scanscreen_banner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MyApp/ScanScreen.swift",
+      "source_location": "L80",
       "weight": 1.0,
       "_src": "scanscreen_scanscreen",
       "_tgt": "scanscreen_scanscreen_guidancebanner",
@@ -1203,8 +1269,8 @@
       "source_file": "MyApp/ScanEngine.swift",
       "source_location": "L90",
       "weight": 1.0,
-      "_src": "scanengine_scanengine_process",
-      "_tgt": "models_memoryentry",
+      "_src": "models_memoryentry",
+      "_tgt": "scanengine_scanengine_process",
       "source": "models_memoryentry",
       "target": "scanengine_scanengine_process"
     },
@@ -1239,8 +1305,8 @@
       "source_file": "MyApp/ContentView.swift",
       "source_location": "L21",
       "weight": 1.0,
-      "_src": "contentview_contentview_init",
-      "_tgt": "models_roommemory",
+      "_src": "models_roommemory",
+      "_tgt": "contentview_contentview_init",
       "source": "models_roommemory",
       "target": "contentview_contentview_init"
     },
@@ -1260,7 +1326,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L26",
+      "source_location": "L28",
       "weight": 1.0,
       "_src": "myapp_scanengine_swift",
       "_tgt": "scanengine_scanengine",
@@ -1272,7 +1338,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L34",
+      "source_location": "L53",
       "weight": 1.0,
       "_src": "myapp_scanengine_swift",
       "_tgt": "scanengine_job",
@@ -1284,7 +1350,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L83",
+      "source_location": "L107",
       "weight": 1.0,
       "_src": "scanengine_scanengine_process",
       "_tgt": "scanengine_scannerprofile",
@@ -1296,7 +1362,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L44",
+      "source_location": "L63",
       "weight": 1.0,
       "_src": "scanengine_scanengine",
       "_tgt": "scanengine_scanengine_init",
@@ -1308,7 +1374,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L50",
+      "source_location": "L69",
       "weight": 1.0,
       "_src": "scanengine_scanengine",
       "_tgt": "scanengine_scanengine_enqueue",
@@ -1320,7 +1386,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L66",
+      "source_location": "L86",
       "weight": 1.0,
       "_src": "scanengine_scanengine",
       "_tgt": "scanengine_scanengine_pump",
@@ -1332,7 +1398,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L80",
+      "source_location": "L100",
       "weight": 1.0,
       "_src": "scanengine_scanengine",
       "_tgt": "scanengine_scanengine_process",
@@ -1347,8 +1413,8 @@
       "source_file": "MyApp/ContentView.swift",
       "source_location": "L23",
       "weight": 1.0,
-      "_src": "contentview_contentview_init",
-      "_tgt": "scanengine_scanengine",
+      "_src": "scanengine_scanengine",
+      "_tgt": "contentview_contentview_init",
       "source": "scanengine_scanengine",
       "target": "contentview_contentview_init"
     },
@@ -1356,7 +1422,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L60",
+      "source_location": "L80",
       "weight": 1.0,
       "_src": "scanengine_scanengine_enqueue",
       "_tgt": "scanengine_job",
@@ -1368,7 +1434,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L62",
+      "source_location": "L82",
       "weight": 1.0,
       "_src": "scanengine_scanengine_enqueue",
       "_tgt": "scanengine_scanengine_pump",
@@ -1383,8 +1449,8 @@
       "source_file": "MyApp/ARScanView.swift",
       "source_location": "L72",
       "weight": 1.0,
-      "_src": "arscanview_coordinator_capture",
-      "_tgt": "scanengine_scanengine_enqueue",
+      "_src": "scanengine_scanengine_enqueue",
+      "_tgt": "arscanview_coordinator_capture",
       "source": "scanengine_scanengine_enqueue",
       "target": "arscanview_coordinator_capture"
     },
@@ -1392,13 +1458,25 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ScanEngine.swift",
-      "source_location": "L73",
+      "source_location": "L93",
       "weight": 1.0,
       "_src": "scanengine_scanengine_pump",
       "_tgt": "scanengine_scanengine_process",
       "source": "scanengine_scanengine_pump",
       "target": "scanengine_scanengine_process",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "MyApp/ScanEngine.swift",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_src": "scanengine_scanengine_process",
+      "_tgt": "spotlightindexer_spotlightindexer_donate",
+      "source": "scanengine_scanengine_process",
+      "target": "spotlightindexer_spotlightindexer_donate"
     },
     {
       "relation": "contains",
@@ -1560,7 +1638,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ARScanView.swift",
-      "source_location": "L89",
+      "source_location": "L92",
       "weight": 1.0,
       "_src": "arscanview_coordinator",
       "_tgt": "arscanview_coordinator_session",
@@ -1572,7 +1650,19 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ARScanView.swift",
-      "source_location": "L127",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_src": "arscanview_coordinator",
+      "_tgt": "arscanview_coordinator_handleframe",
+      "source": "arscanview_coordinator",
+      "target": "arscanview_coordinator_handleframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MyApp/ARScanView.swift",
+      "source_location": "L139",
       "weight": 1.0,
       "_src": "arscanview_coordinator",
       "_tgt": "arscanview_coordinator_resetbeaconscales",
@@ -1584,7 +1674,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ARScanView.swift",
-      "source_location": "L135",
+      "source_location": "L147",
       "weight": 1.0,
       "_src": "arscanview_coordinator",
       "_tgt": "arscanview_coordinator_guidance",
@@ -1608,11 +1698,23 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ARScanView.swift",
-      "source_location": "L100",
+      "source_location": "L93",
       "weight": 1.0,
       "_src": "arscanview_coordinator_session",
-      "_tgt": "arscanview_coordinator_resetbeaconscales",
+      "_tgt": "arscanview_coordinator_handleframe",
       "source": "arscanview_coordinator_session",
+      "target": "arscanview_coordinator_handleframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "MyApp/ARScanView.swift",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_src": "arscanview_coordinator_handleframe",
+      "_tgt": "arscanview_coordinator_resetbeaconscales",
+      "source": "arscanview_coordinator_handleframe",
       "target": "arscanview_coordinator_resetbeaconscales",
       "confidence_score": 1.0
     },
@@ -1620,11 +1722,11 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ARScanView.swift",
-      "source_location": "L111",
+      "source_location": "L123",
       "weight": 1.0,
-      "_src": "arscanview_coordinator_session",
+      "_src": "arscanview_coordinator_handleframe",
       "_tgt": "arscanview_coordinator_guidance",
-      "source": "arscanview_coordinator_session",
+      "source": "arscanview_coordinator_handleframe",
       "target": "arscanview_coordinator_guidance",
       "confidence_score": 1.0
     },
@@ -1632,7 +1734,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_src": "myapp_contentview_swift",
       "_tgt": "contentview_roomindapp",
@@ -1644,7 +1746,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "_src": "myapp_contentview_swift",
       "_tgt": "contentview_contentview",
@@ -1656,7 +1758,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0,
       "_src": "myapp_contentview_swift",
       "_tgt": "contentview_apptab",
@@ -1668,7 +1770,7 @@
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_src": "contentview_roomindapp",
       "_tgt": "app",
@@ -1680,7 +1782,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0,
       "_src": "contentview_contentview",
       "_tgt": "contentview_contentview_init",
@@ -1692,7 +1794,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L44",
+      "source_location": "L55",
       "weight": 1.0,
       "_src": "contentview_contentview",
       "_tgt": "contentview_contentview_find",
@@ -1704,7 +1806,7 @@
       "relation": "case_of",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0,
       "_src": "contentview_apptab",
       "_tgt": "contentview_apptab_scan",
@@ -1716,7 +1818,7 @@
       "relation": "case_of",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0,
       "_src": "contentview_apptab",
       "_tgt": "contentview_apptab_ask",
@@ -1728,12 +1830,48 @@
       "relation": "case_of",
       "confidence": "EXTRACTED",
       "source_file": "MyApp/ContentView.swift",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0,
       "_src": "contentview_apptab",
       "_tgt": "contentview_apptab_recall",
       "source": "contentview_apptab",
       "target": "contentview_apptab_recall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "MyApp/SpotlightIndexer.swift",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "myapp_spotlightindexer_swift",
+      "_tgt": "spotlightindexer_spotlightindexer",
+      "source": "myapp_spotlightindexer_swift",
+      "target": "spotlightindexer_spotlightindexer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MyApp/SpotlightIndexer.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "spotlightindexer_spotlightindexer",
+      "_tgt": "spotlightindexer_spotlightindexer_donate",
+      "source": "spotlightindexer_spotlightindexer",
+      "target": "spotlightindexer_spotlightindexer_donate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "MyApp/SpotlightIndexer.swift",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_src": "spotlightindexer_spotlightindexer",
+      "_tgt": "spotlightindexer_spotlightindexer_clearall",
+      "source": "spotlightindexer_spotlightindexer",
+      "target": "spotlightindexer_spotlightindexer_clearall",
       "confidence_score": 1.0
     }
   ],

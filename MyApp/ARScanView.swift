@@ -109,6 +109,10 @@ struct ARScanView: UIViewRepresentable {
 
             guard let focusID = memory.focusedAnchorID else {
                 if memory.guidanceText != nil { memory.guidanceText = nil }
+                if memory.focusScreenPoint != nil {
+                    memory.focusScreenPoint = nil
+                    memory.focusIsOnScreen = false
+                }
                 resetBeaconScales()
                 return
             }
@@ -121,6 +125,7 @@ struct ARScanView: UIViewRepresentable {
             }
 
             let (text, alignment) = Self.guidance(to: anchor, from: frame)
+            updateTargetMarker(for: anchor, alignment: alignment)
 
             // Throttle UI text to ~5 Hz
             if Date().timeIntervalSince(lastGuidanceUpdate) > 0.2 {
@@ -133,6 +138,25 @@ struct ARScanView: UIViewRepresentable {
             if Date().timeIntervalSince(lastHaptic) > interval {
                 lastHaptic = Date()
                 haptics.impactOccurred(intensity: alignment.magnitude < 0.15 ? 1.0 : 0.6)
+            }
+        }
+
+        /// Projects the target into screen space so SwiftUI can pin a named
+        /// label on the object itself — or an edge arrow when it's off-screen.
+        private func updateTargetMarker(for anchor: ARAnchor, alignment: Float) {
+            guard let arView else { return }
+            let t = anchor.transform.columns.3
+            let world = SIMD3<Float>(t.x, t.y, t.z)
+
+            memory.focusSide = alignment
+            if let point = arView.project(world),
+               abs(alignment) < 0.55,                       // roughly within the camera frustum
+               arView.bounds.insetBy(dx: -40, dy: -40).contains(point) {
+                memory.focusScreenPoint = point
+                memory.focusIsOnScreen = true
+            } else {
+                memory.focusIsOnScreen = false
+                memory.focusScreenPoint = nil
             }
         }
 

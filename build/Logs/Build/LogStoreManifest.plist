@@ -6,6 +6,48 @@
 	<integer>13</integer>
 	<key>logs</key>
 	<dict>
+		<key>ACB48B5E-162D-495F-901F-44EA52FDBDEC</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ACB48B5E-162D-495F-901F-44EA52FDBDEC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>79</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Untitled Project project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MyApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>802818683.95296502</real>
+			<key>timeStoppedRecording</key>
+			<real>802818690.08560002</real>
+			<key>title</key>
+			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>ACB48B5E-162D-495F-901F-44EA52FDBDEC</string>
+		</dict>
 		<key>B451250B-048C-4F25-B12B-7E861421F872</key>
 		<dict>
 			<key>className</key>
@@ -47,90 +89,6 @@
 			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
 			<string>B451250B-048C-4F25-B12B-7E861421F872</string>
-		</dict>
-		<key>FE3F3157-7723-4E34-AD2B-606620CA9566</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FE3F3157-7723-4E34-AD2B-606620CA9566.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Untitled Project project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>MyApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>802817568.09395003</real>
-			<key>timeStoppedRecording</key>
-			<real>802817569.76136804</real>
-			<key>title</key>
-			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>FE3F3157-7723-4E34-AD2B-606620CA9566</string>
-		</dict>
-		<key>FFB3A990-489A-4C93-A84D-9BA9C49926A0</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FFB3A990-489A-4C93-A84D-9BA9C49926A0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>1</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>Untitled Project project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>MyApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>802817524.02654898</real>
-			<key>timeStoppedRecording</key>
-			<real>802817525.85114503</real>
-			<key>title</key>
-			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>FFB3A990-489A-4C93-A84D-9BA9C49926A0</string>
 		</dict>
 	</dict>
 </dict>

@@ -1,5 +1,5 @@
 {
-  "source": "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/MyApp/ScanScreen.swift",
+  "source": "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/MyApp/ScanScreen.swift",
   "tables": {
     "Localizable": [
       {
@@ -7,7 +7,7 @@
         "key": "%lld",
         "location": {
           "startingColumn": 19,
-          "startingLine": 47
+          "startingLine": 48
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "memorizing %lld…",
         "location": {
           "startingColumn": 26,
-          "startingLine": 54
+          "startingLine": 55
         }
       },
       {

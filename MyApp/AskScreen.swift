@@ -2,7 +2,7 @@ import SwiftUI
 
 struct AskScreen: View {
     let librarian: Librarian
-    let onFind: (MemoryEntry) -> Void
+    let onFind: (MemoryEntry, String?) -> Void
 
     @State private var draft = ""
     @FocusState private var inputFocused: Bool
@@ -23,12 +23,6 @@ struct AskScreen: View {
                 ToolbarItem(placement: .topBarLeading) {
                     Toggle(isOn: Bindable(librarian).speakAnswers) {
                         Image(systemName: librarian.speakAnswers ? "speaker.wave.2.fill" : "speaker.slash")
-                    }
-                    .toggleStyle(.button)
-                }
-                ToolbarItem(placement: .topBarTrailing) {
-                    Toggle(isOn: Bindable(librarian).thinkDeeper) {
-                        Label("Think deeper", systemImage: "sparkles")
                     }
                     .toggleStyle(.button)
                 }
@@ -54,7 +48,7 @@ struct AskScreen: View {
                 if librarian.isThinking {
                     HStack(spacing: 8) {
                         ProgressView()
-                        Text(librarian.thinkDeeper ? "thinking deeply…" : "thinking…")
+                        Text("thinking…")
                             .foregroundStyle(.secondary)
                     }
                     .padding(.horizontal, 4)
@@ -94,7 +88,7 @@ struct AskScreen: View {
 
 private struct MessageBubble: View {
     let message: ChatMessage
-    let onFind: (MemoryEntry) -> Void
+    let onFind: (MemoryEntry, String?) -> Void
 
     var body: some View {
         switch message.role {
@@ -123,7 +117,7 @@ private struct MessageBubble: View {
                                 .foregroundStyle(.secondary)
                                 .lineLimit(2)
                             Button {
-                                onFind(match)
+                                onFind(match, message.matchItemName)
                             } label: {
                                 Label("Find it", systemImage: "location.north.line.fill")
                                     .font(.callout.weight(.semibold))

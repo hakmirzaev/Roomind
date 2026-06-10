@@ -7,17 +7,23 @@ import Observation
 // MARK: - Scanner profile (session 241 pattern: terse extraction + system OCR tool)
 
 struct ScannerProfile: LanguageModelSession.DynamicProfile {
+    var useOCRTool = true
+
     var body: some LanguageModelSession.DynamicProfile {
         Profile {
             Instructions(
                 """
                 You catalog physical spaces for a memory assistant.
-                List every distinct object you can see. Be terse and literal.
-                Use the OCR tool to read any visible text verbatim.
+                List every distinct object you can see, including furniture.
+                Be terse and literal. Read any visible text verbatim.
+                The captured photo is attached with label "1".
                 """
             )
             #if !targetEnvironment(simulator)
-            OCRTool()   // _Vision_FoundationModels overlay isn't in the simulator SDK
+            // _Vision_FoundationModels overlay isn't in the simulator SDK
+            if useOCRTool {
+                OCRTool()
+            }
             #endif
         }
     }
@@ -102,14 +108,15 @@ final class ScanEngine {
             lastError = note
             return
         }
-        // Fresh session per frame: extraction is stateless and the on-device
-        // context window is 8K — never let transcripts accumulate images.
-        let session = LanguageModelSession(profile: ScannerProfile())
         do {
-            let observation = try await session.respond(generating: SpatialObservation.self) {
-                "Catalog this view of the room."
-                Attachment(job.cgImage, orientation: .right)
-            }.content
+            let observation: SpatialObservation
+            do {
+                observation = try await analyze(job, useOCRTool: true)
+            } catch {
+                // Beta-1 tool invocation can fail; the model also reads text
+                // straight from the image. Never let one tool lose a memory.
+                observation = try await analyze(job, useOCRTool: false)
+            }
 
             let entry = MemoryEntry(
                 anchorID: job.anchorID,
@@ -122,5 +129,15 @@ final class ScanEngine {
         } catch {
             lastError = error.localizedDescription
         }
+    }
+
+    private func analyze(_ job: Job, useOCRTool: Bool) async throws -> SpatialObservation {
+        // Fresh session per frame: extraction is stateless and the on-device
+        // context window is 8K — never let transcripts accumulate images.
+        let session = LanguageModelSession(profile: ScannerProfile(useOCRTool: useOCRTool))
+        return try await session.respond(generating: SpatialObservation.self) {
+            "Catalog this view of the room."
+            Attachment(job.cgImage, orientation: .right).label("1")
+        }.content
     }
 }

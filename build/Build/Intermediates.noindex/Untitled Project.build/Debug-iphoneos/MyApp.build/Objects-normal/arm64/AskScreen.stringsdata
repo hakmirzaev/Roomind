@@ -1,5 +1,5 @@
 {
-  "source": "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/MyApp/AskScreen.swift",
+  "source": "/Users/bekhruzjonhakmirzaev/Desktop/Roomind/MyApp/AskScreen.swift",
   "tables": {
     "Localizable": [
       {
@@ -12,18 +12,10 @@
       },
       {
         "comment": "",
-        "key": "Think deeper",
-        "location": {
-          "startingColumn": 31,
-          "startingLine": 31
-        }
-      },
-      {
-        "comment": "",
         "key": "Ask anything about this room",
         "location": {
           "startingColumn": 19,
-          "startingLine": 41
+          "startingLine": 35
         }
       },
       {
@@ -31,23 +23,15 @@
         "key": "“Where's my charger?” · “What does the sticky note say?” · “Did I leave anything plugged in?”",
         "location": {
           "startingColumn": 18,
-          "startingLine": 43
-        }
-      },
-      {
-        "comment": "",
-        "key": "thinking deeply…",
-        "location": {
-          "startingColumn": 54,
-          "startingLine": 57
+          "startingLine": 37
         }
       },
       {
         "comment": "",
         "key": "thinking…",
         "location": {
-          "startingColumn": 77,
-          "startingLine": 57
+          "startingColumn": 30,
+          "startingLine": 51
         }
       },
       {
@@ -55,7 +39,7 @@
         "key": "Where is my…",
         "location": {
           "startingColumn": 23,
-          "startingLine": 70
+          "startingLine": 64
         }
       },
       {
@@ -63,7 +47,7 @@
         "key": "Find it",
         "location": {
           "startingColumn": 39,
-          "startingLine": 128
+          "startingLine": 122
         }
       }
     ]

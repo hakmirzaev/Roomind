@@ -217,17 +217,17 @@
   {
     "isFramework" : true,
     "moduleName" : "RealityCoreDeformation",
-    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/RealityCoreDeformation-35Z5N9ND3TLKI.swiftmodule"
+    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/RealityCoreDeformation-2NK6PI8TWDBVU.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "RealityCoreRenderer",
-    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/RealityCoreRenderer-25Y5NI7SCVN2T.swiftmodule"
+    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/RealityCoreRenderer-FJJQW40IS01W.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "RealityCoreTextureProcessing",
-    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/RealityCoreTextureProcessing-23UTV0J76NO1Q.swiftmodule"
+    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/RealityCoreTextureProcessing-X9C8GBJV1EWZ.swiftmodule"
   },
   {
     "isFramework" : true,
@@ -237,7 +237,7 @@
   {
     "isFramework" : true,
     "moduleName" : "RealityFoundationCloth",
-    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/RealityFoundationCloth-2SUDSUKHN2J89.swiftmodule"
+    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/RealityFoundationCloth-28HVHHBEFZV6T.swiftmodule"
   },
   {
     "isFramework" : true,
@@ -252,7 +252,7 @@
   {
     "isFramework" : true,
     "moduleName" : "ShaderGraph",
-    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ShaderGraph-EADQT45QDNYO.swiftmodule"
+    "modulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ShaderGraph-1XPDKKWAU90UV.swiftmodule"
   },
   {
     "isFramework" : false,
@@ -381,644 +381,644 @@
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/ARKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ARKit-D255IKAVFP4ZDDIH24735QNVQ.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ARKit-F10MVWCSR95EZSDLSR7IN3UHN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ARKit"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/SubFrameworks\/ARKitCore.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ARKitCore-5TEUKZ325LMMLP6OKV2TFRVX.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ARKitCore-B7ESUH2H68ZHM5P8JM702KQHF.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ARKitCore"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/SubFrameworks\/ARKitFoundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ARKitFoundation-1VCB6T8L7JGAQM38P5OL8TWA6.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ARKitFoundation-B3X6UYTIHEBPCYJRORHX2HPIQ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ARKitFoundation"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/SubFrameworks\/ARKitUI.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ARKitUI-1AV94DNY0DQ4NM5AAU2E0RDQI.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ARKitUI-7XWNIONXJOTW3G1RVLL8S5PQ1.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ARKitUI"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/AVFAudio.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/AVFAudio-TLAL2SRCD3I4RACSAAW45J8O.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/AVFAudio-8ZRL9ABMX7U2UF1JBOBO1HFO4.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AVFAudio"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/AVFoundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/AVFoundation-EDWLSN6TLFGAZKOZMETF3EHS0.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/AVFoundation-82N5CYB50KHEFGHAC1SRR7ESE.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AVFoundation"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/AVRouting.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/AVRouting-DTAL9AAGJLCIXIZFN3BAQNY56.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/AVRouting-5KQ5VX105LEDC3M484KIZITPJ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AVRouting"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/Accelerate.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Accelerate-79PCRIY53ALPGI8A71GPQQ5GS.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Accelerate-CFMX7FEK2PF2AN2DYCARNRL5D.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Accelerate"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/Accessibility.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Accessibility-DODNXI19SXIMI6V4B65RZH1DG.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Accessibility-AGQIPIYJ4N0VHZ4SFZZVIK5I8.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Accessibility"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/AudioToolbox.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/AudioToolbox-MYLU6KG18N0QPACW48JON0JQ.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/AudioToolbox-BUPMTOFPD8AGRG5Z5RREE2T19.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AudioToolbox"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CFNetwork.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CFNetwork-C2K106T8QHXE3XLVN4MNNWJ5G.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CFNetwork-88TBXC4MOATDW05AO1KRZQ8FT.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CFNetwork"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CloudKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CloudKit-5KO13KEDY0VL7R690LQBKJ81T.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CloudKit-CZFZPJDSXXD3O72F6I2Q61JBF.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CloudKit"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/compression.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Compression-ATVJPDT8VDSGLLT89RI2A6XOS.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Compression-F1QSMAUHXD0KNMRFF61CW1A6N.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Compression"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreAudio.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreAudio-EBE7T425G54WHQI65BMBHHBNY.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreAudio-BXG0QQ0X3NLV9OX999SCT4TT8.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreAudio"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreAudioTypes.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreAudioTypes-7ZFYZNEAO2QYOLJA4AN3YD0UD.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreAudioTypes-3PDJP3W1I5TDHKEHTGJUG2X1G.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreAudioTypes"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreData.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreData-9IAQG0ML4BQPI7F74GAYISIE4.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreData-C45UJDE9L1O8MIKZ1XSCT95VU.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreData"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreFoundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreFoundation-5CWO34NH7DUMMNS5W3DAH2RCE.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreFoundation-A48EK27WY9JC5JS8QUBERVGF7.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreFoundation"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreGraphics.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreGraphics-1ALU14ZNWCGHM2M12THM3E7IH.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreGraphics-9LOHKMHRUB6MXOET0PTL0LMSV.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreGraphics"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreImage.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreImage-E66A11R1SUUMBE43JEX7CIV8Y.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreImage-T5MQG74LXGIUC3CXDKX1Y6QJ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreImage"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreLocation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreLocation-A3DOJFJ08XV5HKHNG3YQ27F4S.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreLocation-9QVHTDDILQNPJU2RUOV2CXVIR.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreLocation"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreMIDI.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreMIDI-DNSPFFTXALTPH8FMBC5C2CB7V.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreMIDI-9UVQYM8A8X6DD9R1UTZ9TZ8PH.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreMIDI"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreML.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreML-4JDIXP3F4LPY3JAREVKQX07DN.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreML-558J93L0K29FQX4D64NDPC1CT.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreML"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreMedia.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreMedia-75CCX7WXEDY2ABM8DVQC263QL.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreMedia-F7V6VIELVY8MM93I2L9V2IYT.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreMedia"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreMotion.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreMotion-6C9GTRUMR311YRRR373L4XBCW.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreMotion-9R8RPWXW8ZAL812189UQE2UC6.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreMotion"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreSpotlight.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreSpotlight-AWVFAA9OMDSMQQF6CJ6QAXFS6.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreSpotlight-EP0C7UQH3DSEBDWX7PWA59M7Z.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreSpotlight"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreText.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreText-DA11JLJ1GY8IEYEWB5S73D8TN.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreText-A8BO74Y96K61ZCZHNXK1CFJVT.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreText"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreTransferable.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreTransferable-12AGFJ0LEKJDOO7I2INA3A3FB.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreTransferable-38FX2PJ1BF6MPXJAF5AWVLCFQ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreTransferable"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/CoreVideo.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/CoreVideo-4UZVV88KSVBYAJISP3XQ5BNRR.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/CoreVideo-87EA30ZQ8X830862Q61Y9PF7W.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreVideo"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/Darwin.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Darwin-8YYWGC57O1B3J51KLHBOVZRDV.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Darwin-9UZW6KVB2HC3VT813ND1TAX7N.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Darwin"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/DataDetection.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/DataDetection-AYYO66Q5BB6XXQYUG47K1WHBE.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/DataDetection-1MBGUO9MV8GJI77C59PYSF7IT.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "DataDetection"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/DeveloperToolsSupport.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/DeveloperToolsSupport-6YSZX3V33FSE047B9OZZ53N8M.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/DeveloperToolsSupport-E4Y3V42JFWP4LDID333ZYX2E4.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "DeveloperToolsSupport"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/dispatch.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Dispatch-CLPLW41O21H0U1IATRZJRSXYM.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Dispatch-7GFGKI6BI47V4GU00Z08U0GYK.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Dispatch"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/FileProvider.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/FileProvider-DCQ89Q572OS065UG2509Z8DFX.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/FileProvider-BCWD5G1FYJ9ZALSCH0H6D6OVC.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "FileProvider"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Foundation-AJWGQPEPJZV3HQU1KOCM42AIH.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Foundation-7Q9LX6T04QI3D23GVUP71ISS1.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Foundation"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/GLKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/GLKit-DSZ6KYD6EAILW4GCQ4QHKSQFN.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/GLKit-D1UQMS94CSGP1GFAP8RU4I3YU.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "GLKit"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/GameController.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/GameController-22ZS353CZLJ5N2E1GP52F62M7.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/GameController-6SNP9FSIIOP4RX7FCMXOV5766.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "GameController"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/GroupActivities.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/GroupActivities-D60MTRI9WMAZB5PK3FWCQ4IE0.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/GroupActivities-378FED5AUJEOIPFQME9JSLUBE.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "GroupActivities"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/IOSurface.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/IOSurface-VMSRK5XB72ZY40E72OJK8RUW.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/IOSurface-2CPKAK1H7QJFG07GW2UWEH5XH.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "IOSurface"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/ImageIO.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ImageIO-18T7MGDEGKB567VJ61PDTFB40.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ImageIO-7X95EQILHJ3GOBRBK864NN7MV.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ImageIO"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/LocalAuthentication.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/LocalAuthentication-34TNE6KIT3WP04651NXSSM9WB.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/LocalAuthentication-2BC4OFOISRBLZG4DAU0JPA9YN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "LocalAuthentication"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/DarwinBasic.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/MachO-BNK3MH4QA345VYOTU2DGLT4QH.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/MachO-AAVMV1C6TYC7D1BX4YY0WPMJC.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "MachO"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/MediaToolbox.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/MediaToolbox-A3PVWJB0TL34DHNSIT8K2S8VI.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/MediaToolbox-6YZ6W3CBMA139HYRJR7M6V6U5.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "MediaToolbox"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/Metal.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Metal-5A6CN7TV06V45MHI3MGXB31TG.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Metal-C0V86BZ8MFFPNRFK4JR7FD6B0.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Metal"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/ModelIO.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ModelIO-9KZFIMUSDPDJE076XF4T9AMCL.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ModelIO-5PYC8CRA0DDMPVDNJSWK5RW44.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ModelIO"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/MultipeerConnectivity.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/MultipeerConnectivity-40U3I7KJS3SXJDM041CU695UA.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/MultipeerConnectivity-C7FHYWSLK3X2O0GEXHIDR5ZS.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "MultipeerConnectivity"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/Network.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Network-AVT1OHWFDMY8AD9XGTH5BD22A.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Network-AUUBLZNPOCZPIOVCC4KG7U5WW.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Network"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/OSLog.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/OSLog-5MGOTMLYBMXUFGHNT0F62TP2U.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/OSLog-E77KTAC4BPLXYASEQM7DCC4LN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "OSLog"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/ObjectiveC.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ObjectiveC-BAVEN7PEH1OKRZLJ983WUND3B.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ObjectiveC-80JLZVD5GOD6826W8445PG876.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ObjectiveC"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/OpenGLES.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/OpenGLES-1L6A11JMLVQZTL3OJGLH27YK2.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/OpenGLES-EJ1OPD11JBAF9WNA6U0KH6GGM.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "OpenGLES"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/QuartzCore.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/QuartzCore-3KWZO3139DBB9I7GDMT1P5WA4.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/QuartzCore-CZ4VXN03MS4X67N5CPW4XAVCQ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "QuartzCore"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/SubFrameworks\/RealityCoreTextureProcessing.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/RealityCoreTextureProcessing-24MPOCQ85558NY9DXRI44TJ7L.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/RealityCoreTextureProcessing-6B3BXOVCM75QP7EZ9JZD54SF8.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "RealityCoreTextureProcessing"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/SceneKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/SceneKit-WCN0CK3LJ7QQA9JNFVQAGQ2S.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/SceneKit-VIWPUR7RIUZ4K9V0A0KT91FA.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SceneKit"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/Security.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Security-E3S2OI51G5A53B5957HSWAM39.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Security-C99PMME3SM588L6NHJ8JD9LYY.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Security"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/SubFrameworks\/ShaderGraph.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ShaderGraph-3755PONB1A8JIZL0TYIU7DM5S.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ShaderGraph-6LZBDJKXPJ3ACTRKVOODU49JO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ShaderGraph"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/Spatial\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Spatial-7WMB78AR0CMB735G9RE8WB4BM.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Spatial-6RMPXTSRSQCIFTEWOEQNLHVVO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Spatial"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/SpriteKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/SpriteKit-2LWH59ELPPC6W9S6QFTNMYSGT.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/SpriteKit-1ZU2IJ337H49N6EET3WUUOD4X.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SpriteKit"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/SwiftShims-CZHOJIC2VYLKTE3Y0VG08CLLV.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/SwiftShims-7HQ5B5CFA2GBFZZ323CNFHD4.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftShims"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/SwiftUI.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/SwiftUI-37JORYGPECDTO42VV0XH8A7CT.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/SwiftUI-6ABT03IUWQTAQWB37VBQ5RLNO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftUI"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/SwiftUICore.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/SwiftUICore-67F2JOPVN3BCKRD3RQSY7CD9L.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/SwiftUICore-7QRD2M7W0X5P2K5CLG5S9YL3E.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftUICore"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/Symbols.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Symbols-7X5W8TZNXF7BQG93DNCF217DQ.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Symbols-2GFQLEYCA4GAUQX1YN0Y42MYG.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Symbols"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/UIKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/UIKit-BUW5HQE3HFWGF7KAVSYQRA628.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/UIKit-1X3HY8GEN3Z3ILB3DQ742UOUZ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "UIKit"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/SubFrameworks\/UIUtilities.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/UIUtilities-4XRV888311LOO2SPOA3Q3OR2K.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/UIUtilities-8T0MD07NECDWVFDQ6IBHQ40QZ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "UIUtilities"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/UniformTypeIdentifiers.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/UniformTypeIdentifiers-1BSKKU6NOYJAZ0JBEUONTP247.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/UniformTypeIdentifiers-4QF4Q8C7CYSTD3ITZKO42KHQ2.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "UniformTypeIdentifiers"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/UserNotifications.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/UserNotifications-1GQI3L7VFI7AN716N9MH15ZN8.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/UserNotifications-ED5VKUIUM7ZRCNJ7U8UMPNQ1W.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "UserNotifications"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/VideoToolbox.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/VideoToolbox-3JNLZMSPCWBCUY71A2HNRNI1G.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/VideoToolbox-39S541N3BJYX7G6ZSH2M2NTY3.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "VideoToolbox"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/Vision.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/Vision-58ANQT48HMR7TYCPIWU5VQFMJ.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/Vision-3V191V9PLH1QSPJ6KIO562F9T.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Vision"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/xpc.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/XPC-A2EKGOBQPR3Q2NNDTXK8D5PL3.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/XPC-9X34XU9XTAS4D0HSW4U8PSXY6.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "XPC"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/DarwinFoundation1.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_AvailabilityInternal-6ZPNBDWYT8XL1CWAP417CCWR1.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_AvailabilityInternal-D2MLF4Q54YQPTVNJGEJI9T97J.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_AvailabilityInternal"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_float-2ZEHCSTFYCH4F1XYHRKYS9BLF.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_float-2622N6EGE8VRI5N199NJVW014.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_float"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_intrinsics-7OGOZNVBYOZOLWYUX0CIYPHKF.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_intrinsics-5E2HONS6I4JU5MQ6SMS149F97.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_intrinsics"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_inttypes-8DT1C6XVWHUGOQF8Q07JG379B.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_inttypes-7X3GX57JE5CJMX3NHI5C8KPQ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_inttypes"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_limits-EA0T2XV6TY7X85E9G6GX9LISF.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_limits-1FRUY297NL2YGQ4G41PI2UNDL.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_limits"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_stdarg-7WFOTA2XE7R5GEF5C2RBVIID.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_stdarg-1ZNKUWMFKWFLRNP820PS1PVNO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdarg"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_stdatomic-8XWPUVBZA98UJTEVUY2SIL6EL.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_stdatomic-812W5CAGIRX1WVMEGW90Y6HRK.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdatomic"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_stdbool-EJX89I2223N8SAXJYHRVG6297.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_stdbool-61EJ10MWCC4V7ZF6O9SIHKNRJ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdbool"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_stddef-34OCM9MHYV2UKHQWRJ9956QCC.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_stddef-5TRLB09NHO4M5H2TGUO2XPACT.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stddef"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_stdint-EFOXFE74WGP1YJOF5AZZTWO5G.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_stdint-F2ZDJ96RZB6FNZUAGHZVT3H2N.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdint"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_Builtin_tgmath-2DI98Y1FLP8EVZHEPB5HAI1TM.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_Builtin_tgmath-2YXGVI9X9IS0NPZHKG2QJAM0A.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_tgmath"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/DarwinFoundation1.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_DarwinFoundation1-E4SAJDSLWTGLLPHYSJXWKK9SQ.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_DarwinFoundation1-2C5JYL5WQLJVK2U3GLRNO5S78.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation1"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/DarwinFoundation2.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_DarwinFoundation2-3TVESB13MSYAFN4G85Z20FOYM.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_DarwinFoundation2-CLNTIUATXNT6E2GMK58P03F2E.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation2"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/DarwinFoundation3.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_DarwinFoundation3-2D5WXO4R2Z9LN5ZHTC4SI3NVL.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_DarwinFoundation3-68XWBL6C12VYXTKNR4AKE6VAG.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation3"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/System\/Library\/Frameworks\/_LocationEssentials.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_LocationEssentials-OYFD53BLF78TMP4PAT3L6DRL.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_LocationEssentials-1RXQDCXOCITEVDL92YUZBGFOW.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_LocationEssentials"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/_SwiftConcurrencyShims-C9YQ64E3ZWZ0YM890WLZXBFTX.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/_SwiftConcurrencyShims-B0GZ7Q4M0UYT08M3L0IE65ONL.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_SwiftConcurrencyShims"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/dnssd.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/dnssd-CNS1X8O2VPRFEVF4513MPO3TA.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/dnssd-B493U937SKO5HYMVUYUOILD0K.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "dnssd"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/os-564YJBX7BPJ3DFU7XTU13D7CN.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/os-8NWLVUX9G2YAE385A3HNWTWY6.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/os_object-C4TM1S3LT21AT5LCDE0DWK7ET.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/os_object-3H118WE3599CP4Y1SMV3MGCFX.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os_object"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/os_workgroup-8EF9GN2V2ZLPT2XJ46CZTSX5H.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/os_workgroup-4251B7CDWIA1DAP9PBA62GQH9.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os_workgroup"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ptrauth-7A51AX12XWKHI06169MSLU85P.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ptrauth-BT2FGPUPCZEM8J4DRUV6B7M8L.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ptrauth"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/ptrcheck-CR9FA5EU5SBVIIUFYAOK2AAVO.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/ptrcheck-4ERNBXD72MYMARMPR6VR89I58.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ptrcheck"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/simd\/module.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/simd-8QPY64PVKGW7XGFKG2I9M7DBX.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/simd-2OWTTQD135YKZ168DEZ89P1DF.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "simd"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/c_standard_library.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/string_h-ABRWSSON0WJNKNZTC722CL8VY.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/string_h-EVOIMBPDD3X9XFILQ5U20R1F.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "string_h"
   },
   {
     "clangModuleMapPath" : "\/Users\/bekhruzjonhakmirzaev\/Downloads\/Xcode-beta.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Developer\/SDKs\/iPhoneOS.sdk\/usr\/include\/DarwinFoundation2.modulemap",
-    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Untitled Project\/build\/ModuleCache.noindex\/sys_types-955JDEKDIZ4D137EW6XS9L2ZK.pcm",
+    "clangModulePath" : "\/Users\/bekhruzjonhakmirzaev\/Desktop\/Roomind\/build\/ModuleCache.noindex\/sys_types-6XD10AX99H07WHGAFDXZK92YC.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "sys_types"

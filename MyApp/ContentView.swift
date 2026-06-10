@@ -31,10 +31,10 @@ struct ContentView: View {
                 ScanScreen(memory: memory, engine: engine)
             }
             Tab("Ask", systemImage: "bubble.left.and.text.bubble.right", value: AppTab.ask) {
-                AskScreen(librarian: librarian, onFind: find)
+                AskScreen(librarian: librarian, onFind: find(_:itemName:))
             }
             Tab("Memory", systemImage: "brain.head.profile", value: AppTab.recall) {
-                MemoryScreen(memory: memory, onFind: find)
+                MemoryScreen(memory: memory, onFind: find(_:itemName:))
             }
         }
         .tint(.cyan)
@@ -46,14 +46,15 @@ struct ContentView: View {
             guard let id = activity.userInfo?[CSSearchableItemActivityIdentifier] as? String,
                   let anchorID = UUID(uuidString: id),
                   let entry = memory.entry(forAnchor: anchorID) else { return }
-            find(entry)
+            find(entry, itemName: nil)
         }
     }
 
     /// "Find it": focus the matched anchor and jump to the AR view — the
-    /// beacon pulses and guidance + haptics take over.
-    private func find(_ entry: MemoryEntry) {
-        memory.focusedAnchorID = entry.anchorID
+    /// named target marker, guidance and haptics take over.
+    private func find(_ entry: MemoryEntry, itemName: String?) {
+        memory.focus(on: entry, query: nil)
+        if let itemName { memory.focusedItemName = itemName }
         selectedTab = .scan
     }
 }

@@ -32,21 +32,12 @@ struct RoomSearchTool: Tool {
     }
 }
 
-// MARK: - Librarian profile: answers only from memory; optional PCC deep reasoning
+// MARK: - Librarian profile: answers only from memory, fully on-device
 
 struct LibrarianProfile: LanguageModelSession.DynamicProfile {
     let memory: RoomMemory
-    let thinkDeeper: Bool
 
     var body: some LanguageModelSession.DynamicProfile {
-        if thinkDeeper {
-            base.model(PrivateCloudComputeLanguageModel()).reasoningLevel(.deep)
-        } else {
-            base
-        }
-    }
-
-    private var base: LanguageModelSession.Profile {
         Profile {
             Instructions(
                 """
@@ -70,6 +61,7 @@ struct ChatMessage: Identifiable {
     let role: Role
     let text: String
     var match: MemoryEntry?
+    var matchItemName: String?
 }
 
 @Observable
@@ -79,19 +71,12 @@ final class Librarian {
     var messages: [ChatMessage] = []
     var isThinking = false
     var speakAnswers = true
-    var thinkDeeper = false {
-        didSet { rebuildSession() }
-    }
 
     private var session: LanguageModelSession
 
     init(memory: RoomMemory) {
         self.memory = memory
-        session = LanguageModelSession(profile: LibrarianProfile(memory: memory, thinkDeeper: false))
-    }
-
-    private func rebuildSession() {
-        session = LanguageModelSession(profile: LibrarianProfile(memory: memory, thinkDeeper: thinkDeeper))
+        session = LanguageModelSession(profile: LibrarianProfile(memory: memory))
     }
 
     func ask(_ question: String) async {
@@ -102,7 +87,7 @@ final class Librarian {
         isThinking = true
         defer { isThinking = false }
 
-        if !thinkDeeper, let note = ScanEngine.availabilityNote {
+        if let note = ScanEngine.availabilityNote {
             messages.append(ChatMessage(role: .assistant, text: note))
             return
         }
@@ -112,25 +97,18 @@ final class Librarian {
             // Anchor match: re-run our own search on the question — parsing entry
             // IDs out of model prose is fragile; this is deterministic.
             let match = memory.search(question).first
-            messages.append(ChatMessage(role: .assistant, text: answer, match: match))
+            messages.append(ChatMessage(
+                role: .assistant,
+                text: answer,
+                match: match,
+                matchItemName: match.map { memory.bestItemName(in: $0, query: question) }
+            ))
             if speakAnswers { Speaker.shared.speak(answer) }
         } catch {
-            if thinkDeeper {
-                // PCC needs network + a private-cloud-compute entitlement this
-                // build may not carry — fall back to on-device and retry once.
-                thinkDeeper = false
-                messages.append(ChatMessage(
-                    role: .assistant,
-                    text: "Private Cloud Compute isn't reachable from this build — switching back to the on-device model."
-                ))
-                messages.removeAll { $0.role == .user && $0.text == question }
-                await ask(question)
-            } else {
-                messages.append(ChatMessage(
-                    role: .assistant,
-                    text: "I couldn't think about that: \(error.localizedDescription)"
-                ))
-            }
+            messages.append(ChatMessage(
+                role: .assistant,
+                text: "I couldn't think about that: \(error.localizedDescription)"
+            ))
         }
     }
 }

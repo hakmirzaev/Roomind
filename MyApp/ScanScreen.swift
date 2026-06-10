@@ -10,6 +10,7 @@ struct ScanScreen: View {
         ZStack {
             ARScanView(memory: memory, engine: engine, captureSignal: $captureSignal)
                 .ignoresSafeArea()
+                .overlay { TargetMarkerLayer(memory: memory) }   // shares AR coordinates
 
             Color.white
                 .opacity(flashOpacity)
@@ -85,8 +86,7 @@ struct ScanScreen: View {
                 .font(.title3.weight(.semibold))
                 .monospacedDigit()
             Button {
-                memory.focusedAnchorID = nil
-                memory.guidanceText = nil
+                memory.clearFocus()
             } label: {
                 Image(systemName: "xmark.circle.fill")
             }
@@ -127,6 +127,63 @@ struct ScanScreen: View {
             .buttonStyle(.plain)
             .sensoryFeedback(.impact, trigger: captureSignal)
             .accessibilityLabel("Memorize this view")
+        }
+    }
+}
+
+/// Pins the found object's name onto the object itself; when the target is
+/// outside the camera view, a chevron at the screen edge points the way.
+private struct TargetMarkerLayer: View {
+    let memory: RoomMemory
+
+    var body: some View {
+        ZStack {
+            if memory.focusedAnchorID != nil {
+                if memory.focusIsOnScreen, let point = memory.focusScreenPoint {
+                    VStack(spacing: 6) {
+                        Text(memory.focusedItemName ?? "target")
+                            .font(.callout.weight(.semibold))
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 7)
+                            .glassEffect()
+                        Image(systemName: "arrowtriangle.down.fill")
+                            .font(.system(size: 16))
+                            .foregroundStyle(.cyan)
+                        Circle()
+                            .stroke(.cyan, lineWidth: 3)
+                            .frame(width: 28, height: 28)
+                            .shadow(color: .cyan.opacity(0.8), radius: 6)
+                    }
+                    .position(x: point.x, y: max(60, point.y - 44))
+                    .animation(.linear(duration: 0.1), value: point)
+                } else {
+                    HStack {
+                        if memory.focusSide < 0 {
+                            edgeArrow("chevron.left.2")
+                            Spacer()
+                        } else {
+                            Spacer()
+                            edgeArrow("chevron.right.2")
+                        }
+                    }
+                    .padding(.horizontal, 18)
+                }
+            }
+        }
+        .allowsHitTesting(false)
+    }
+
+    private func edgeArrow(_ symbol: String) -> some View {
+        VStack(spacing: 8) {
+            Image(systemName: symbol)
+                .font(.system(size: 44, weight: .bold))
+                .foregroundStyle(.cyan)
+                .symbolEffect(.pulse)
+            Text(memory.focusedItemName ?? "target")
+                .font(.footnote.weight(.semibold))
+                .padding(.horizontal, 10)
+                .padding(.vertical, 5)
+                .glassEffect()
         }
     }
 }
