@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>2A499235-20E6-44DB-9545-D2F4046D8AB6</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2A499235-20E6-44DB-9545-D2F4046D8AB6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Untitled Project project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MyApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>802814875.36098194</real>
+			<key>timeStoppedRecording</key>
+			<real>802814875.83515501</real>
+			<key>title</key>
+			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>2A499235-20E6-44DB-9545-D2F4046D8AB6</string>
+		</dict>
+		<key>51193DB0-5F71-4529-BD99-EC71B8AC1B29</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>51193DB0-5F71-4529-BD99-EC71B8AC1B29.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Untitled Project project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MyApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>802814805.39231205</real>
+			<key>timeStoppedRecording</key>
+			<real>802814807.59360194</real>
+			<key>title</key>
+			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>51193DB0-5F71-4529-BD99-EC71B8AC1B29</string>
+		</dict>
+		<key>9E05CD03-A49B-468B-8690-3B23EAB5E980</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9E05CD03-A49B-468B-8690-3B23EAB5E980.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Untitled Project project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MyApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>802814764.44186795</real>
+			<key>timeStoppedRecording</key>
+			<real>802814773.01271999</real>
+			<key>title</key>
+			<string>Building project Untitled Project with scheme MyApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>9E05CD03-A49B-468B-8690-3B23EAB5E980</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
