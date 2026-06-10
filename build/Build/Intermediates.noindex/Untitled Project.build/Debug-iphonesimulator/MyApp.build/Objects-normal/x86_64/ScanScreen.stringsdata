@@ -4,26 +4,10 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Memorize this view",
-        "location": {
-          "startingColumn": 29,
-          "startingLine": 96
-        }
-      },
-      {
-        "comment": "",
         "key": "%lld",
         "location": {
           "startingColumn": 19,
-          "startingLine": 36
-        }
-      },
-      {
-        "comment": "",
-        "key": "model unavailable",
-        "location": {
-          "startingColumn": 23,
-          "startingLine": 49
+          "startingLine": 47
         }
       },
       {
@@ -31,7 +15,15 @@
         "key": "memorizing %lld…",
         "location": {
           "startingColumn": 26,
-          "startingLine": 43
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memorize this view",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 129
         }
       }
     ]

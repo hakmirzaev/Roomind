@@ -86,8 +86,20 @@ struct ARScanView: UIViewRepresentable {
 
         // MARK: Per-frame: light up finished beacons, pulse + guide toward focus
 
-        func session(_ session: ARSession, didUpdate frame: ARFrame) {
-            let stored = memory.anchorIDsWithEntries
+        // ARKit delivers frames on the main queue; entering the main actor
+        // synchronously (no hop) is required here — an async hop queues ARFrames
+        // and starves the camera ("delegate is retaining N ARFrames").
+        nonisolated func session(_ session: ARSession, didUpdate frame: ARFrame) {
+            MainActor.assumeIsolated { handleFrame(frame) }
+        }
+
+        private var storedCache: (entryCount: Int, ids: Set<UUID>) = (0, [])
+
+        private func handleFrame(_ frame: ARFrame) {
+            if storedCache.entryCount != memory.entries.count {
+                storedCache = (memory.entries.count, memory.anchorIDsWithEntries)
+            }
+            let stored = storedCache.ids
             for (anchorID, sphere) in beacons where !litAnchorIDs.contains(anchorID) {
                 if stored.contains(anchorID) {
                     sphere.model?.materials = [UnlitMaterial(color: .systemCyan)]

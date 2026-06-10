@@ -102,6 +102,11 @@ final class Librarian {
         isThinking = true
         defer { isThinking = false }
 
+        if !thinkDeeper, let note = ScanEngine.availabilityNote {
+            messages.append(ChatMessage(role: .assistant, text: note))
+            return
+        }
+
         do {
             let answer = try await session.respond(to: question).content
             // Anchor match: re-run our own search on the question — parsing entry
@@ -110,10 +115,22 @@ final class Librarian {
             messages.append(ChatMessage(role: .assistant, text: answer, match: match))
             if speakAnswers { Speaker.shared.speak(answer) }
         } catch {
-            messages.append(ChatMessage(
-                role: .assistant,
-                text: "I couldn't think about that: \(error.localizedDescription)"
-            ))
+            if thinkDeeper {
+                // PCC needs network + a private-cloud-compute entitlement this
+                // build may not carry — fall back to on-device and retry once.
+                thinkDeeper = false
+                messages.append(ChatMessage(
+                    role: .assistant,
+                    text: "Private Cloud Compute isn't reachable from this build — switching back to the on-device model."
+                ))
+                messages.removeAll { $0.role == .user && $0.text == question }
+                await ask(question)
+            } else {
+                messages.append(ChatMessage(
+                    role: .assistant,
+                    text: "I couldn't think about that: \(error.localizedDescription)"
+                ))
+            }
         }
     }
 }

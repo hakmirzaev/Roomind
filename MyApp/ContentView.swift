@@ -1,4 +1,5 @@
 import SwiftUI
+import CoreSpotlight
 
 @main
 struct RoomindApp: App {
@@ -37,6 +38,16 @@ struct ContentView: View {
             }
         }
         .tint(.cyan)
+        .task {
+            // Anchors don't survive relaunch; drop stale Spotlight donations.
+            SpotlightIndexer.clearAll()
+        }
+        .onContinueUserActivity(CSSearchableItemActionType) { activity in
+            guard let id = activity.userInfo?[CSSearchableItemActivityIdentifier] as? String,
+                  let anchorID = UUID(uuidString: id),
+                  let entry = memory.entry(forAnchor: anchorID) else { return }
+            find(entry)
+        }
     }
 
     /// "Find it": focus the matched anchor and jump to the AR view — the

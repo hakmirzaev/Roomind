@@ -95,5 +95,15 @@
     "object" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/Speaker.o",
     "swift-dependencies" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/Speaker.swiftdeps",
     "swiftmodule" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/Speaker~partial.swiftmodule"
+  },
+  "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/MyApp/SpotlightIndexer.swift" : {
+    "const-values" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/SpotlightIndexer.swiftconstvalues",
+    "dependencies" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/SpotlightIndexer.d",
+    "diagnostics" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/SpotlightIndexer.dia",
+    "index-unit-output-path" : "/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/SpotlightIndexer.o",
+    "llvm-bc" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/SpotlightIndexer.bc",
+    "object" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/SpotlightIndexer.o",
+    "swift-dependencies" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/SpotlightIndexer.swiftdeps",
+    "swiftmodule" : "/Users/bekhruzjonhakmirzaev/Desktop/Untitled Project/build/Build/Intermediates.noindex/Untitled Project.build/Debug-iphonesimulator/MyApp.build/Objects-normal/arm64/SpotlightIndexer~partial.swiftmodule"
   }
 }

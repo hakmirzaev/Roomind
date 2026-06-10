@@ -31,7 +31,24 @@ final class ScanEngine {
 
     private(set) var pendingCount = 0
     private(set) var lastError: String?
+    private(set) var lastThumbnail: UIImage?
     var modelAvailable: Bool { SystemLanguageModel.default.isAvailable }
+
+    /// Human-readable diagnosis + fix when the on-device model can't run.
+    static var availabilityNote: String? {
+        switch SystemLanguageModel.default.availability {
+        case .available:
+            return nil
+        case .unavailable(.deviceNotEligible):
+            return "This iPhone can't run Apple Intelligence."
+        case .unavailable(.appleIntelligenceNotEnabled):
+            return "Turn on Apple Intelligence: Settings → Apple Intelligence & Siri."
+        case .unavailable(.modelNotReady):
+            return "The on-device model is still downloading. Keep the phone on Wi-Fi and charging, then check Settings → Apple Intelligence & Siri."
+        case .unavailable:
+            return "The on-device model is unavailable right now."
+        }
+    }
 
     private struct Job {
         let cgImage: CGImage
@@ -58,6 +75,7 @@ final class ScanEngine {
 
         // capturedImage is sensor-landscape; .right is the portrait fix
         let thumbnail = UIImage(cgImage: cgImage, scale: 1, orientation: .right)
+        lastThumbnail = thumbnail
 
         queue.append(Job(cgImage: cgImage, anchorID: anchorID, thumbnail: thumbnail))
         pendingCount = queue.count + (isProcessing ? 1 : 0)
@@ -80,6 +98,10 @@ final class ScanEngine {
     }
 
     private func process(_ job: Job) async {
+        if let note = Self.availabilityNote {
+            lastError = note
+            return
+        }
         // Fresh session per frame: extraction is stateless and the on-device
         // context window is 8K — never let transcripts accumulate images.
         let session = LanguageModelSession(profile: ScannerProfile())
@@ -89,11 +111,14 @@ final class ScanEngine {
                 Attachment(job.cgImage, orientation: .right)
             }.content
 
-            memory.entries.append(MemoryEntry(
+            let entry = MemoryEntry(
                 anchorID: job.anchorID,
                 observation: observation,
                 thumbnail: job.thumbnail
-            ))
+            )
+            memory.entries.append(entry)
+            lastError = nil
+            SpotlightIndexer.donate(entry)
         } catch {
             lastError = error.localizedDescription
         }

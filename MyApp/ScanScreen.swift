@@ -4,21 +4,32 @@ struct ScanScreen: View {
     let memory: RoomMemory
     let engine: ScanEngine
     @State private var captureSignal = 0
+    @State private var flashOpacity = 0.0
 
     var body: some View {
         ZStack {
             ARScanView(memory: memory, engine: engine, captureSignal: $captureSignal)
                 .ignoresSafeArea()
 
+            Color.white
+                .opacity(flashOpacity)
+                .ignoresSafeArea()
+                .allowsHitTesting(false)
+
             reticle
 
-            VStack {
+            VStack(spacing: 10) {
                 statusBar
+                if let note = ScanEngine.availabilityNote {
+                    banner(note, icon: "exclamationmark.triangle.fill", tint: .yellow)
+                } else if let error = engine.lastError {
+                    banner(error, icon: "xmark.octagon.fill", tint: .red)
+                }
                 Spacer()
                 if let guidance = memory.guidanceText {
                     guidanceBanner(guidance)
                 }
-                captureButton
+                captureBar
             }
             .padding()
         }
@@ -44,11 +55,6 @@ struct ScanScreen: View {
                 }
                 .transition(.opacity)
             }
-
-            if !engine.modelAvailable {
-                Label("model unavailable", systemImage: "exclamationmark.triangle")
-                    .foregroundStyle(.yellow)
-            }
         }
         .font(.subheadline.weight(.medium))
         .padding(.horizontal, 16)
@@ -56,6 +62,19 @@ struct ScanScreen: View {
         .glassEffect()
         .animation(.snappy, value: engine.pendingCount)
         .animation(.snappy, value: memory.entries.count)
+    }
+
+    private func banner(_ text: String, icon: String, tint: Color) -> some View {
+        HStack(alignment: .top, spacing: 10) {
+            Image(systemName: icon)
+                .foregroundStyle(tint)
+            Text(text)
+                .font(.footnote.weight(.medium))
+                .multilineTextAlignment(.leading)
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 10)
+        .glassEffect(in: .rect(cornerRadius: 14))
     }
 
     private func guidanceBanner(_ text: String) -> some View {
@@ -78,21 +97,36 @@ struct ScanScreen: View {
         .padding(.bottom, 8)
     }
 
-    private var captureButton: some View {
-        Button {
-            captureSignal += 1
-        } label: {
-            ZStack {
-                Circle()
-                    .stroke(.white, lineWidth: 4)
-                    .frame(width: 74, height: 74)
-                Circle()
-                    .fill(.white)
-                    .frame(width: 60, height: 60)
+    private var captureBar: some View {
+        ZStack {
+            if let thumbnail = engine.lastThumbnail {
+                HStack {
+                    Image(uiImage: thumbnail)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 54, height: 54)
+                        .clipShape(.rect(cornerRadius: 10))
+                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(.white.opacity(0.4)))
+                    Spacer()
+                }
             }
+            Button {
+                captureSignal += 1
+                flashOpacity = 0.7
+                withAnimation(.easeOut(duration: 0.35)) { flashOpacity = 0 }
+            } label: {
+                ZStack {
+                    Circle()
+                        .stroke(.white, lineWidth: 4)
+                        .frame(width: 74, height: 74)
+                    Circle()
+                        .fill(.white)
+                        .frame(width: 60, height: 60)
+                }
+            }
+            .buttonStyle(.plain)
+            .sensoryFeedback(.impact, trigger: captureSignal)
+            .accessibilityLabel("Memorize this view")
         }
-        .buttonStyle(.plain)
-        .sensoryFeedback(.impact, trigger: captureSignal)
-        .accessibilityLabel("Memorize this view")
     }
 }
