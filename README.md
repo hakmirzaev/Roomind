@@ -1,7 +1,7 @@
 # Roomind
 
 **A private, on-device spatial memory for the physical world.**
-Built solo in 3 hours at Bitrig Hacks: WWDC Edition (June 10, 2026).
+Built in 3 hours at Bitrig Hacks: WWDC Edition (June 10, 2026).
 
 > Spotlight indexed your files. Roomind indexes your room.
 
